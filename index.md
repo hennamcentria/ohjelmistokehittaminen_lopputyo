@@ -1,3 +1,5 @@
+layout: default
+
 ## Henna Mäkinen web-tehtävä
 
 ### 1. Italics and Bold
