@@ -1,10 +1,8 @@
----
-layout: default
-title: Henna Mäkinen web-tehtävä
-subtitle: Markdown-harjoitukset 🌸
----
+## Henna Mäkinen web-tehtävä
 
-### 1. Italics and Bold
+Markdown-harjoitukset 🌸
+
+## 1. Italics and Bold
 
 
 **Tehtävä 1**
