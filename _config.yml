@@ -1,8 +1,0 @@
-remote_theme: tuur29/pages-themes-cayman
-
-colors:
-  gradient_left: "#f7b5d1"
-  gradient_right: "#eeb0d5"
-  header: "#ffffff"
-  link: "#cc6699"
-  section_title: "#d76b9d"

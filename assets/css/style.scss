@@ -1,0 +1,13 @@
+
+---
+---
+
+$header-bg-color: #f7b5d1;
+$header-bg-color-secondary: #eeb0d5;
+$section-headings-color: #d76b9d;
+
+@import "{{ site.theme }}";
+
+body {
+  background-color: #fff5fa;
+}
