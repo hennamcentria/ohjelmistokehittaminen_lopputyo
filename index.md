@@ -12,7 +12,7 @@ I **will** complete these lessons!
 
 **Tehtävä 3**
 
-"_Of course_," she whispered. Then, she shouted: "All I need is **a little moxie**!"
+"_Of course_" she whispered. Then, she shouted: "All I need is **a little moxie**!"
 
 **Tehtävä 4**
 
@@ -157,7 +157,7 @@ which were printed the words: _VIVE L'IRLANDE_!
    For more help on tomato slicing, see Thomas Jefferson's seminal essay _Tom Ate Those_.
 
 
-### 7. Paragraphs / Soft breaks
+### 7. Paragraphs
 
 **Tehtävä 1**
 
