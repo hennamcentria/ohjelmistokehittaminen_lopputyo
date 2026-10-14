@@ -4,74 +4,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
 
   <style>
     body {
-      background-color: #111111;
+      background: #111111;
       font-family: Arial, sans-serif;
       color: #805063;
-      margin: 0;
       padding: 14px;
     }
 
     .container {
       max-width: 768px;
       margin: auto;
-      background-color: #fff0f6;
+      background: #fff0f6;
       padding: 12px;
       border-radius: 12px;
     }
 
-    header {
-      background-color: #f5b1d7;
+    /* Markdownin ensimmäinen otsikko */
+    .content h2:first-of-type {
+      background: #f5b1d7;
+      color: #874761;
       text-align: center;
-      padding: 16px;
+      padding: 18px 12px;
       border-radius: 10px;
-    }
-
-    header h1 {
       font-size: 17px;
       margin: 0;
-      color: #874761;
     }
 
-    header p {
+    /* Alaotsikko */
+    .content h2:first-of-type + p {
+      background: #f5b1d7;
+      text-align: center;
+      padding: 0 12px 14px;
+      margin: -5px 0 8px;
+      border-radius: 0 0 10px 10px;
       font-size: 13px;
-      margin: 8px 0 0;
+    }
+
+    /* Tehtävien otsikot */
+    .content h2:not(:first-of-type) {
+      color: #e83e8c;
+      font-size: 16px;
+      margin-top: 8px;
     }
 
     .content {
-      background-color: #fffafd;
+      background: #fffafd;
       padding: 12px;
       border-radius: 10px;
-      margin-top: 8px;
       line-height: 1.5;
-    }
-
-    .content h2 {
-      color: #e83e8c;
-      font-size: 16px;
-      margin: 0 0 6px;
-    }
-
-    .content p {
-      margin: 4px 0;
-      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <header>
-      <h1>♡ {{ page.title }} ♡</h1>
-      <p>{{ page.subtitle }}</p>
-    </header>
-
-    <div class="content">
+    <main class="content">
       {{ content }}
-    </div>
+    </main>
   </div>
 </body>
 </html>
