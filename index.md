@@ -1,12 +1,11 @@
-
 ---
 layout: default
 ---
 
-
 ## Henna Mäkinen web-tehtävä
 
 ### 1. Italics and Bold
+
 
 **Tehtävä 1**
 
@@ -29,12 +28,12 @@ If you're thinking to yourself, **_This is unbelievable_**, you'd probably be ri
 
 **Tehtävä 1**
 
-#Header one
-##Header two
-###Header three
-####Header four
-#####Header five
-######Header six
+# Header one
+## Header two
+### Header three
+#### Header four
+##### Header five
+###### Header six
 
 **Tehtävä 2**
 
@@ -55,7 +54,7 @@ Here's some words about the book _One Hundred Years..._.
 
 **Tehtävä 3**
 
-####The Latest News from [the BBC](www.bbc.com/news)
+#### The Latest News from [the BBC](www.bbc.com/news)
 
 **Tehtävä 4**
 
