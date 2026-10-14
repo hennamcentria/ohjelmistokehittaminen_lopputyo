@@ -2,32 +2,12 @@
 ---
 ---
 
+$header-bg-color: #ffb6d5;
+$header-bg-color-secondary: #ffcce5;
+$section-headings-color: #d65b97;
+
 @import "{{ site.theme }}";
 
 body {
-  background-color: #fff0f6 !important;
-  color: #754b60 !important;
-}
-
-.page-header {
-  background: linear-gradient(120deg, #ffb6d5, #ed9ac4) !important;
-}
-
-.main-content {
-  background-color: #fffafd !important;
-  border-radius: 20px;
-  padding: 30px;
-}
-
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #d65b97 !important;
-}
-
-a {
-  color: #cb5590 !important;
+  background-color: #fff0f6;
 }
