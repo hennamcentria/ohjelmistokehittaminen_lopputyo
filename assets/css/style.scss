@@ -2,11 +2,18 @@
 ---
 ---
 
-$header-bg-color: #ffb6d5;
-$header-bg-color-secondary: #ffcce5;
-$section-headings-color: #d65b97;
-
 @import "{{ site.theme }}";
+
+.page-header {
+  background: #ffb6d5;
+  background-image: none;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #d65b97;
+}
 
 body {
   background-color: #fff0f6;
