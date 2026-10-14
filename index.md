@@ -1,6 +1,5 @@
 ## Henna Mäkinen web-tehtävä
 
-Markdown-harjoitukset 🌸
 
 ## 1. Italics and Bold
 
